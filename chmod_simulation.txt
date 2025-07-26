@@ -1,0 +1,17 @@
+Simulated chmod command:
+
+chmod 775 permission_test.py
+
+This command would change the file's permissions to:
+
+rwxrwxr-x
+
+Breakdown of permissions:
+- Owner (User):     read (r), write (w), execute (x)
+- Group:            read (r), write (w), execute (x)
+- Others:           read (r), execute (x)
+
+Explanation:
+7 (rwx) = 4 + 2 + 1
+7 (rwx) = 4 + 2 + 1
+5 (r-x) = 4 + 0 + 1
